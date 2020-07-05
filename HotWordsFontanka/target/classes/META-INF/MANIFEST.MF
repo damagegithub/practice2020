@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1593871073745
+Build-Jdk: 12.0.2
+Built-By: Administrator
+Bundle-Activator: itmo.jph.hotwords.service.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: HotWordsFontanka.Fontanka
+Bundle-SymbolicName: itmo.jph.hotwords.service.Fontanka
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: itmo.jph.hotwords.service;version="1.0.0";uses:="itmo.jp
+ h.hotwords.api,org.osgi.framework"
+Import-Package: itmo.jph.hotwords.api;version="[1.0,2)",org.osgi.framewo
+ rk;version="[1.9,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

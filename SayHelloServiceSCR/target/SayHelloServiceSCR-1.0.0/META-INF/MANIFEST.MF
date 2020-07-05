@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1593601250716
+Build-Jdk: 12.0.2
+Built-By: Administrator
+Bundle-ManifestVersion: 2
+Bundle-Name: Say Hello ServiceSCR
+Bundle-SymbolicName: itmo.jph.hello.serviceSCR.service
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: itmo.jph.hello.serviceSCR;version="1.0.0"
+Provide-Capability: osgi.service;objectClass:List<String>="itmo.jph.hell
+ o.serviceSCR.SayHelloServiceSCR"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/Say-Hello-Service-SCR.xml
+Tool: Bnd-3.0.0.201509101326

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1593716578331
+Build-Jdk: 12.0.2
+Built-By: Administrator
+Bundle-ManifestVersion: 2
+Bundle-Name: HotWordsService.service
+Bundle-SymbolicName: itmo.jph.hotwords.api.service
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: itmo.jph.hotwords.api;version="1.0.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="felix">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-12.0.2/felix-framework-5.6.1/bin/felix.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-12.0.2/felix-framework-5.6.1/bin/maven-bundle-plugin-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
