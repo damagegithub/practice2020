@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1593991804405
+Build-Jdk: 12.0.2
+Built-By: Administrator
+Bundle-Activator: itmo.jph.hotwords.client.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: Hot Words From News Titles
+Bundle-SymbolicName: itmo.jph.hotwords.client.hotwords
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: itmo.jph.hotwords.client;uses:="org.osgi.framework";vers
+ ion="1.0.0"
+Import-Package: itmo.jph.hotwords.api;version="[1.0,2)",org.osgi.framewo
+ rk;version="[1.9,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007

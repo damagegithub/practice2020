@@ -8,11 +8,10 @@ import java.util.Hashtable;
 public class Activator implements BundleActivator {
 
     public void start(BundleContext context) throws Exception {
-        Hashtable props = new Hashtable();
+        Hashtable<String, java.io.Serializable> props = new Hashtable<>();
         props.put("osgi.command.scope", "practice");
         props.put("osgi.command.function", new String[]{"hello"});
         context.registerService(HelloCommand.class.getName(), new HelloCommand(context), props);
-
     }
 
     public void stop(BundleContext context) throws Exception {
